@@ -49,7 +49,7 @@ const Index = () => {
               onChange={(e) => setNewTask(e.target.value)}
               placeholder="Add a new task"
             />
-            <Button onClick={addTask}>Add</Button>
+            <Button onClick={addTask} variant="success">Add</Button>
           </div>
           <ul className="space-y-2">
             {tasks.map((task) => (
